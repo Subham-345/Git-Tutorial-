@@ -24,7 +24,7 @@ git commit -- This commit the git file
 sometimes it occurs an new window type Intial commit and save it
 gir add -A -- it is used to add multiple file to the git repo
 gir commit -a --it is used to staging the modified file
-git commit -a "Type some message"
+git commit -m "Type some message"
 
 to restore the unmodified data use git checkout "File name"
 git checkout -f -- it checkout all the files 
@@ -48,3 +48,4 @@ git branch -- This will show all tha present banches in that folder as well as t
     
 {}
 []
+git mearge "branch name" -- This is use to mearge two branches 
