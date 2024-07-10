@@ -5,3 +5,22 @@ git config --global user.name "Subham-345"
 git config --global user.email "subhamshaw0345@gamil.com"
 
 type code . in git bash terminal to open vs code directly in that path
+
+git init 
+ls -lart it shows all folders in that folder includeing hidden folders
+
+
+Stages in git 
+
+Untracked file -- Git have no access to the file
+Unmodefied file -- Here one edit the file 
+Staging area -- Here the file stores in the git server
+commit 
+remove
+
+git status -- it shows all the file's status
+git add "File name" -- It add the file to the staging area
+git commit -- This commit the git file
+sometimes it occurs an new window type Intial commit and save it
+
+git 
