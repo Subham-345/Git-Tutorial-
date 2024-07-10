@@ -26,3 +26,4 @@ gir add -A -- it is used to add multiple file to the git repo
 gir commit -a --it is used to staging the modified file
 git commit -a "Type some message"
 
+to restore the unmodified data use git checkout "File name"
