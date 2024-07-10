@@ -1,0 +1,7 @@
+What do you mean by git?
+
+All codes realated to git
+git config --global user.name "Subham-345"
+git config --global user.email "subhamshaw0345@gamil.com"
+
+type code . in git bash terminal to open vs code directly in that path
