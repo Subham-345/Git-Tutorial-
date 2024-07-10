@@ -38,3 +38,8 @@ git rm "File name"-- it delete the file from the working directory as well as th
 git restore --staged "File name" -- it will recovere the deleted file
 git status -s -- it will show the short status of the file location 
 
+#if we want to add an ignore file in the folder then we have to use a command -- touch .gitignore   
+what do we mean by gitignore:
+                             Sometime we want to ignore or not highlight a file in a perticular folder then in that
+                            case we create a ignore file in th git
+
