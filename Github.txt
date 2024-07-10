@@ -22,5 +22,7 @@ git status -- it shows all the file's status
 git add "File name" -- It add the file to the staging area
 git commit -- This commit the git file
 sometimes it occurs an new window type Intial commit and save it
+gir add -A -- it is used to add multiple file to the git repo
+gir commit -a --it is used to staging the modified file
+git commit -a "Type some message"
 
-git 
