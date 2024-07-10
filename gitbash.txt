@@ -1,0 +1,383 @@
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github
+$ git config --global user.name Subham-345
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github
+$ git config --global user.email subhamshaw0345@gamil.com
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github
+$ git config --global user.email
+subhamshaw0345@gamil.com
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github
+$ git config --global user.name
+Subham-345
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github
+$  git init
+Initialized empty Git repository in C:/Users/Lenovo/Desktop/github/.git/
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ ls -lart
+total 13
+drwxr-xr-x 1 Lenovo 197121   0 Jul 10 10:43 ../
+drwxr-xr-x 1 Lenovo 197121   0 Jul 10 10:50 ./
+drwxr-xr-x 1 Lenovo 197121   0 Jul 10 10:50 .git/
+-rw-r--r-- 1 Lenovo 197121 232 Jul 10 10:50 Github.txt
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git.txt
+        Github.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git add Git.txt
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Github.txt
+
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit
+[master (root-commit) fca2bac] Intial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git.txt
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Github.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git add Github.txt
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Github.txt
+
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit
+[master 32448c6] Initial commit
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Github.txt
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -a
+[master 939ff8c] Initial commit
+ 1 file changed, 19 insertions(+)
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -a "All"
+fatal: paths 'All ...' with -a does not make sense
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -m "All"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -m "All"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -m "Modified files"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git add -A
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -m "Modified files"
+[master 8594054] Modified files
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git checkout Git.txt
+Updated 1 path from the index
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git add -A
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git commit -m "Modified files"
+[master 8ac7f1f] Modified files
+ 1 file changed, 1 insertion(+)
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git log
+commit 8ac7f1f4fcff3362c36df3078b87898c59d18484 (HEAD -> master)
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:15:31 2024 +0530
+
+    Modified files
+
+commit 85940545f067845109dcd3fa0df9a2d200262a98
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:12:11 2024 +0530
+
+    Modified files
+
+commit 939ff8c703c95407a532fbdfed83a1cdf3961698
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:06:11 2024 +0530
+
+    Initial commit
+
+commit 32448c6e195ec9327cbb074f6f79427fd5f0cc01
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:04:27 2024 +0530
+
+    Initial commit
+
+commit fca2bac524c57299b7444aee6a4774c0cfe5fb1e
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:01:18 2024 +0530
+
+    Intial commit
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git log -p -1
+commit 8ac7f1f4fcff3362c36df3078b87898c59d18484 (HEAD -> master)
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:15:31 2024 +0530
+
+    Modified files
+
+diff --git a/Github.txt b/Github.txt
+index e4f9df5..8289883 100644
+--- a/Github.txt
++++ b/Github.txt
+@@ -26,3 +26,4 @@ gir add -A -- it is used to add multiple file to the git repo
+ gir commit -a --it is used to staging the modified file
+ git commit -a "Type some message"
+
++to restore the unmodified data use git checkout "File name"
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git log -p -5
+commit 8ac7f1f4fcff3362c36df3078b87898c59d18484 (HEAD -> master)
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:15:31 2024 +0530
+
+    Modified files
+
+diff --git a/Github.txt b/Github.txt
+index e4f9df5..8289883 100644
+--- a/Github.txt
++++ b/Github.txt
+@@ -26,3 +26,4 @@ gir add -A -- it is used to add multiple file to the git repo
+ gir commit -a --it is used to staging the modified file
+ git commit -a "Type some message"
+
++to restore the unmodified data use git checkout "File name"
+
+commit 85940545f067845109dcd3fa0df9a2d200262a98
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:12:11 2024 +0530
+
+    Modified files
+
+diff --git a/Github.txt b/Github.txt
+index b3e5c38..e4f9df5 100644
+--- a/Github.txt
++++ b/Github.txt
+@@ -22,5 +22,7 @@ git status -- it shows all the file's status
+ git add "File name" -- It add the file to the staging area
+ git commit -- This commit the git file
+ sometimes it occurs an new window type Intial commit and save it
++gir add -A -- it is used to add multiple file to the git repo
++gir commit -a --it is used to staging the modified file
++git commit -a "Type some message"
+
+-git
+\ No newline at end of file
+
+commit 939ff8c703c95407a532fbdfed83a1cdf3961698
+Author: Subham-345 <subhamshaw0345@gamil.com>
+Date:   Wed Jul 10 11:06:11 2024 +0530
+
+    Initial commit
+
+diff --git a/Github.txt b/Github.txt
+index f9cdd54..b3e5c38 100644
+--- a/Github.txt
++++ b/Github.txt
+@@ -5,3 +5,22 @@ git config --global user.name "Subham-345"
+ git config --global user.email "subhamshaw0345@gamil.com"
+
+ type code . in git bash terminal to open vs code directly in that path
++
++git init
++ls -lart it shows all folders in that folder includeing hidden folders
++
++
++Stages in git
++
++Untracked file -- Git have no access to the file
++Unmodefied file -- Here one edit the file
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git diff
+diff --git a/Github.txt b/Github.txt
+index 8289883..bdcb60a 100644
+--- a/Github.txt
++++ b/Github.txt
+@@ -27,3 +27,8 @@ gir commit -a --it is used to staging the modified file
+ git commit -a "Type some message"
+
+ to restore the unmodified data use git checkout "File name"
++git checkout -f -- it checkout all the files
++
++git log
++git log -p -1
++git diff - compare working area to the staging area
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git add -A
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ git diff
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$ ^C
+
+Lenovo@LAPTOP-FA9O485A MINGW64 ~/Desktop/github (master)
+$

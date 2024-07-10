@@ -27,3 +27,8 @@ gir commit -a --it is used to staging the modified file
 git commit -a "Type some message"
 
 to restore the unmodified data use git checkout "File name"
+git checkout -f -- it checkout all the files 
+
+git log
+git log -p -1
+git diff - compare working area to the staging area
