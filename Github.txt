@@ -32,3 +32,5 @@ git checkout -f -- it checkout all the files
 git log
 git log -p -1
 git diff - compare working area to the staging area
+
+git rm --cached "File name" -- it delete the file from the working directory of the git but will be present on the harddisk
