@@ -43,3 +43,8 @@ what do we mean by gitignore:
                              Sometime we want to ignore or not highlight a file in a perticular folder then in that
                             case we create a ignore file in th git
 
+git branch "branch name" --  this will add new branch to the folder
+git branch -- This will show all tha present banches in that folder as well as the branch in which you will be present
+    
+{}
+[]
