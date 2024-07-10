@@ -49,3 +49,5 @@ git branch -- This will show all tha present banches in that folder as well as t
 {}
 []
 git mearge "branch name" -- This is use to mearge two branches 
+#if we want to creat and switch to a new branch at a same time then we will use -- git checkout -b "New Branch name"
+    
