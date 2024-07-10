@@ -53,3 +53,4 @@ git mearge "branch name" -- This is use to mearge two branches
     
 git remote add origin https://github.com/Subham-345/Git-Tutorial-.git
 --this will add the local to the globle repo
+git remote -v --it give the ur where git is actually saved
