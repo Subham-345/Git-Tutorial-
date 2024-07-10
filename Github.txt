@@ -34,3 +34,4 @@ git log -p -1
 git diff - compare working area to the staging area
 
 git rm --cached "File name" -- it delete the file from the working directory of the git but will be present on the harddisk
+git rm "File name"-- it delete the file from the working directory as well as the hard disk 
